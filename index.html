@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>织梦瑶乡 · 云织客</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="home-page">
+    <header class="topbar solid">
+      <a class="brand image-brand" href="./index.html" aria-label="云织客首页">
+        <img src="./assets/yunjike-logo.png" alt="云织客 logo" />
+        <span><strong>织梦瑶乡</strong><small>YUNZHIKE</small></span>
+      </a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="./promotion.html">品牌故事</a>
+        <a href="#designer">DIY</a>
+        <a href="#craft">瑶锦</a>
+        <a href="./reserve.html">预约</a>
+      </nav>
+      <a class="ghost-link" href="./reserve.html">预约体验</a>
+    </header>
+
+    <main>
+      <section class="brand-hero">
+        <img src="./assets/hero-yunjike.png" alt="瑶乡工坊中织娘正在织造瑶锦" />
+        <div class="brand-veil"></div>
+        <div class="hero-symbol">织</div>
+        <div class="brand-hero-copy">
+          <p class="eyebrow">YAO BROCADE, REIMAGINED</p>
+          <h1>织梦瑶乡</h1>
+          <p>源自瑶锦，织向当代。</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#designer">开始定制</a>
+            <a class="secondary-action" href="./promotion.html">了解云织客</a>
+          </div>
+        </div>
+        <div class="vertical-seal">一经一纬<br />云上相逢</div>
+      </section>
+
+      <section class="brand-strip" aria-label="品牌关键词">
+        <span>真实纹样</span>
+        <span>AI 生成</span>
+        <span>织娘手作</span>
+        <span>平台交易</span>
+      </section>
+
+      <section class="chagee-section" id="about">
+        <div class="orient-title">
+          <p>ABOUT US</p>
+          <h2>以瑶锦，会新友</h2>
+        </div>
+        <div class="orient-copy">
+          <p>云织客让顾客在线选择瑶锦纹样、色线与用途，再由织娘完成手工织造。传统不是被展示在玻璃柜里，而是被重新带回礼物、家居、研学与日常生活。</p>
+          <a href="./promotion.html">了解品牌故事</a>
+        </div>
+      </section>
+
+      <section class="home-showcase" id="designer">
+        <div class="showcase-copy">
+          <p class="eyebrow">CUSTOM STUDIO</p>
+          <h2>先选寓意，再织成形</h2>
+          <p>八角花、蝴蝶、狮头、田字等母题来自资料中的真实纹样线索。顾客只需选择寓意、配色和用途，平台把设计转成可织造订单。</p>
+        </div>
+        <aside class="designer-panel inline-panel" aria-label="瑶织锦 DIY 定制面板">
+          <div class="panel-head"><span>云织客 DIY</span><strong id="designName">八角花 · 守护纹</strong></div>
+          <div class="loom-preview"><div class="woven-grid" id="wovenGrid"></div></div>
+          <div class="control-block">
+            <span class="control-label">纹样母题</span>
+            <div class="segmented" role="group" aria-label="选择纹样">
+              <button class="active" data-pattern="flower">八角花</button>
+              <button data-pattern="butterfly">蝴蝶</button>
+              <button data-pattern="lion">狮头</button>
+              <button data-pattern="field">田字</button>
+            </div>
+          </div>
+          <div class="control-row">
+            <label>用途<select id="useSelect"><option value="38">香包挂件</option><option value="90" selected>礼盒织片</option><option value="160">家居挂画</option></select></label>
+            <label>工期<select id="timeSelect"><option value="0">标准 15 天</option><option value="80">加急 7 天</option><option value="150">展会急单 3 天</option></select></label>
+          </div>
+          <div class="swatches" aria-label="选择配色">
+            <button class="swatch active" data-palette="classic" aria-label="靛蓝朱红"></button>
+            <button class="swatch green" data-palette="spring" aria-label="红绿生机"></button>
+            <button class="swatch cyan" data-palette="festival" aria-label="玫红青蓝"></button>
+            <button class="swatch ink" data-palette="ink" aria-label="黑白古纹"></button>
+          </div>
+          <div class="design-note" id="designNote">八角花常见于瑶锦几何纹样表达，适合礼盒织片、手账封面和家居装饰。</div>
+          <div class="checkout-strip"><span>预估价格</span><strong id="price">¥418</strong><button id="saveDesign">加入定织单</button></div>
+        </aside>
+      </section>
+
+      <section class="visual-chapters" id="craft">
+        <article>
+          <img src="./assets/pattern-reference.jpg" alt="资料中的瑶锦纹样图谱" />
+          <div><span>01</span><h2>真实纹样</h2><p>图案有来处，设计才有根。</p><a href="./promotion.html#archive">查看纹样档案</a></div>
+        </article>
+        <article>
+          <img src="./assets/sourced/jianghua-weaving.png" alt="织娘织造瑶锦" />
+          <div><span>02</span><h2>织娘手作</h2><p>数字下单，手工完成。</p><a href="./promotion.html#craft-story">查看技艺故事</a></div>
+        </article>
+        <article>
+          <img src="./assets/promo-product.png" alt="瑶锦定制礼盒" />
+          <div><span>03</span><h2>礼物交付</h2><p>随作品附上纹样寓意卡。</p><a href="./reserve.html">预约定制</a></div>
+        </article>
+      </section>
+
+      <section class="impact-band">
+        <div><strong>源自江华</strong><span>瑶锦与八宝被传统技艺</span></div>
+        <div><strong>线上定制</strong><span>图稿、色线、工期同步生成</span></div>
+        <div><strong>线下体验</strong><span>迷你织机、研学、展会预约</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>织梦瑶乡 · 云织客</strong><p>让瑶锦以新的方式被选择、被织造、被带回生活。</p></div>
+      <div class="footer-links"><a href="./promotion.html">品牌故事</a><a href="./reserve.html">预约体验</a></div>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite">定织单已保存，等待织娘确认。</div>
+    <script src="./script.js"></script>
+  </body>
+</html>

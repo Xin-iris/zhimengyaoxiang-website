@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>云织客 · 预约页面</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar solid">
+      <a class="brand image-brand" href="./index.html"><img src="./assets/yunjike-logo.png" alt="云织客 logo" /><span><strong>预约云织客</strong><small>体验 / 定制 / 团体合作</small></span></a>
+      <nav class="nav-links"><a href="./index.html">平台首页</a><a href="./promotion.html">宣传页</a><a href="./index.html#designer">DIY 定制</a></nav>
+      <a class="ghost-link" href="#reserveForm">填写预约</a>
+    </header>
+
+    <main>
+      <section class="reserve-hero">
+        <div>
+          <p class="eyebrow">Reservation Center</p>
+          <h1>单独预约页，让体验和下单更突出</h1>
+          <p>适合放在路演二维码、展会摊位、公众号菜单和校园宣传海报里。用户进来后不需要理解完整平台，直接选择体验类型、时间和人数即可。</p>
+        </div>
+        <img src="./assets/workshop-market.jpg" alt="非遗展会互动体验摊位" />
+      </section>
+
+      <section class="section reservation-layout">
+        <form class="reserve-form" id="reserveForm">
+          <div class="form-head">
+            <p class="eyebrow">Book Now</p>
+            <h2>预约信息</h2>
+          </div>
+          <label>姓名<input id="guestName" required placeholder="请输入姓名" /></label>
+          <label>联系电话<input id="guestPhone" required placeholder="用于确认预约" /></label>
+          <label>预约类型<select id="reserveType"><option value="39">迷你织机体验</option><option value="99">AI 定制咨询</option><option value="199">瑶锦礼盒定制</option><option value="499">团体研学课程</option></select></label>
+          <label>预约日期<input id="reserveDate" type="date" required /></label>
+          <label>人数<input id="reservePeople" type="number" min="1" max="50" value="2" /></label>
+          <label>备注<textarea id="reserveNote" rows="4" placeholder="例如：想做生日礼物、团队研学、展会合作等"></textarea></label>
+          <div class="reserve-total"><span>预约预估</span><strong id="reservePrice">¥78</strong></div>
+          <button class="ink-action full" type="submit">提交预约</button>
+        </form>
+
+        <aside class="reserve-side">
+          <h2>可预约内容</h2>
+          <div class="slot-list">
+            <div><strong>迷你织机体验</strong><span>30-45 分钟，适合展会引流和校园体验。</span></div>
+            <div><strong>AI 定制咨询</strong><span>上传灵感图，现场生成可织造图稿。</span></div>
+            <div><strong>瑶锦礼盒定制</strong><span>纹样、色线、包装、故事卡一并确认。</span></div>
+            <div><strong>团体研学课程</strong><span>适合班级、社团、企业文化活动。</span></div>
+          </div>
+          <img src="./assets/sourced/jianghua-work.png" alt="瑶锦研学体验现场" />
+        </aside>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite">预约已保存，稍后由工作人员确认。</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
