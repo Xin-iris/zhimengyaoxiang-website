@@ -66,7 +66,7 @@
 }
 
 .hero-logo-frame {
-  width: min(280px, 46vw);
+  width: min(340px, 52vw);
 }
 
 .hero-logo-frame img {
@@ -344,7 +344,7 @@
   }
 
   .hero-logo-frame {
-    width: min(210px, 56vw);
+    width: min(240px, 62vw);
   }
 
   .brand-hero-copy h1 {
@@ -860,8 +860,8 @@ h2 {
 
 .image-brand img {
   display: block;
-  width: 88px;
-  height: 48px;
+  width: 112px;
+  height: 56px;
   object-fit: contain;
   border: 0;
   border-radius: 0;
