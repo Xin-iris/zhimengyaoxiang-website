@@ -84,7 +84,7 @@
   text-shadow: 0 10px 32px rgba(0, 0, 0, 0.28);
 }
 
-.brand-hero-copy p:not(.eyebrow) {
+.brand-hero-copy p:not(.eyebrow):not(.hero-kicker) {
   margin-bottom: 0;
   color: rgba(255, 250, 240, 0.78);
   font-size: clamp(20px, 2.4vw, 30px);
